@@ -1,7 +1,7 @@
 import requests
 import json
 
-file = open("iglo.users","r")
+file = open("dump","r")
 for line in file:
 	info = line.split(":")
 	username = info[0]
